@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.cdnfonts.com/css/broad" rel="stylesheet">
+  <link rel="stylesheet" href="obs.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice website</title>
+</head>
+<body>
+  <div class="one">
+  <section>
+    <nav>
+      <div class="logo">
+        <img src="./images/obs original.png" alt="">
+        <div>
+          <h1>OBS</h1>
+        <h2>Open Broadcast Software &reg; </h2>
+        </div>
+        
+      </div>
+
+      <div class="sidebar">
+        <ul>
+          <li onclick= hidesidebar()><img src="./images/cancel white.png" alt=""></li>
+          <li class="home"><a href="">Home</a></li>
+          <li><a href="">Download</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Help</a></li>
+          <li><a href="">Forum</a></li>
+          
+        </ul>
+        <div class="icons">
+          <div class="s-link">
+            <a href=""><img class="social" src="./images/discord.png" alt=""></a>
+          </div>
+          <div class="s-link">
+            <a href=""><img class="social" src="./images/twitter.png" alt=""></a>
+          </div>
+          <div class="s-link">
+            <a href=""><img class="social" src="./images/mastodon.png" alt=""></a>
+          </div>
+          <div class="s-link">
+            <a class="gitlink" href=""><img class="github" src="./images/github (2).png" alt=""></a>
+          </div>
+          
+          <div class="s-link">
+            <a href="">
+              <img src="./images/heart.png" alt=""></a>
+              <p class="txt">Contribute</p>
+          </div>
+          
+        </div>
+      </div>
+
+        <div class="navlinks">
+          <ul>
+          <li id="home"><a href=""><img src="" alt=""></a></li>
+          <li id="home"><a href="">Home</a></li>
+          <li><a class="hideonmobile" href="">Download</a></li>
+          <li><a class="hideonmobile" href="">Blog</a></li>
+          <li><a class="hideonmobile" href="">Help</a></li>
+          <li><a class="hideonmobile" href="">Forum</a></li>
+          <li onclick=showsidebar()><img class="bar" src="./images/menu white.png" alt=""></li>
+        </ul>
+        <div class="icons">
+          <div class="s-link">
+            <a href=""><img class="social" src="./images/discord.png" alt=""></a>
+          </div>
+          <div class="s-link">
+            <a href=""><img class="social" src="./images/twitter.png" alt=""></a>
+          </div>
+          <div class="s-link">
+            <a href=""><img class="social" src="./images/mastodon.png" alt=""></a>
+          </div>
+          <div class="s-link">
+            <a class="gitlink" href=""><img class="github" src="./images/github (2).png" alt=""></a>
+          </div>
+          
+          <div class="s-link">
+            <a href="">
+              <img class="contribute" src="./images/heart.png" alt=""></a>
+              <p class="txt">Contribute</p>
+          </div>
+          
+          
+        </div>
+      </div>
+    </nav>
+  </section>
+  <script>
+  function hidesidebar(){
+    const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display= 'none'
+  }
+  function showsidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+
+  </script>
+</div>
+  <div class="two">
+    <div class="obs">
+      <h1 class="obstxt">OBS Studio</h1>
+    </div>
+
+    <div id="lr">
+      <h2 class="lr">Latest Release</h2>
+      <div class="icon">
+        <img style="height: 20px;" src="./images/windows.png" alt="">
+        <img style="height: 20px;" src="./images/apple.png" alt="">
+        <img style="height: 20px;" src="./images/linux.png" alt="">
+        <p>30.0.2- December 11th</p>
+      </div>
+    </div>
+    
+    <div class="download">
+      <div class="links"><a href="">Windows</a></div>
+      <div class="links"><a href="">MacOs</a></div>
+      <div class="links"><a href="">Linux</a></div>
+    </div>
+    
+    <div class="shorttext">
+      <p id="one">Free and open source software for video recording and live streaming.</p>
+      <p id="two">Download and start streaming quickly and easily on Windows, Mac or Linux.</p>
+    </div>
+
+    <div class="img">
+      <img src="./images/hero.png" alt="">
+    </div>
+
+    <div class="shrttxt"><p>The OBS Project is made possible thanks to generous contributions from our sponsors and backers. Learn more about how you can <a href="">&nbsp;become a sponsor.</a></p></div>
+    
+
+    <div class="sponsors">
+      <h1>PREMIER TIER SPONSORS</h1></div>
+
+      <div class="spons">
+        <img src="./images/youtube logo.png" alt="">
+        <img class="logitech" src="./images/logitech-logo.png" alt="">
+        <img src="./images/twitch-wordmark-white.png" alt="">
+      </div>
+      <div class="facebook">
+        <img src="./images/facebook-wordmark-white-cropped-v2.png" alt="">
+      </div>
+      
+
+      <div class="sponsors">
+        <h1>DIAMOND TIER SPONSORS</h1>
+        <div class="d-spons">
+          <img src="./images/nvidia.png" alt="">
+          <img src="./images/amd ryzen.png" alt="">
+        </div>
+
+      </div>
+      
+      <div class="sponsors">
+        <h1>GOLD TIER SPONSORS</h1>
+        <div class="g-spons">
+          <img src="./images/streamelements.png" alt="">
+        </div>
+      </div>
+
+  </div>
+
+
+  
+<div class="three">
+  <div class="head">
+    <h1>Features</h1>
+  </div>
+  <div class="feature">
+  <div>
+    <img src="./images/features1.png" alt="">
+    <p>High performance real time video/audio capturing and mixing. Create scenes made up of multiple sources including window captures, images, text, browser windows, webcams, capture cards and more.</p></div>
+
+
+    <div>
+    <img src="./images/features2.png" alt="">
+    <p>Set up an unlimited number of scenes you can switch between seamlessly via custom transitions.</p>
+  </div>
+
+</div> 
+
+  <div class="feature">
+    <div>
+      <img src="./images/features3.png" alt="">
+      <p>Intuitive audio mixer with per-source filters such as noise gate, noise suppression, and gain. Take full control with VST plugin support</p>
+    </div>
+
+    <div>
+      <img src="./images/features4.png" alt="">
+      <p>Powerful and easy to use configuration options. Add new Sources, duplicate existing ones, and adjust their properties effortlessly.</p>
+
+    </div>
+  </div>
+
+<div class="feature">
+  <div>
+    <img src="./images/features5.png" alt="">
+    <p>Streamlined Settings panel gives you access to a wide array of configuration options to tweak every aspect of your broadcast or recording.</p>
+  </div>
+
+  <div>
+    <img src="./images/features6.png" alt="">
+    <p>Modular 'Dock' UI allows you to rearrange the layout exactly as you like. You can even pop out each individual Dock to its own window</p>
+  </div>
+
+</div>
+  <p id="btmtxt">OBS supports all your favorite streaming platforms and more.</p>
+
+</div>
+
+
+<div class="four">
+  <div class="head">
+    <h1>Create Professional Productions</h1>
+  </div>
+<div class="cp">
+  <div>
+    <img src="./images/cp1.png" alt="">
+    <p>Choose from a number of different and customizable transitions for when you switch between your scenes or add your own stinger video files</p>
+  </div>
+
+  <div>
+    <img src="./images/cp2.png" alt="">
+    <p>Set hotkeys for nearly every sort of action, such as switching between scenes, starting/stopping streams or recordings, muting audio sources, push to talk, and more.</p>
+  </div>
+</div>
+
+<div class="cp">
+  <div>
+    <img src="./images/cp3.png" alt="">
+    <p><b>Studio Mode </b>lets you preview your scenes and sources before pushing them live. Adjust your scenes and sources or create new ones and ensure they're perfect before your viewers ever see them.</p>
+  </div>
+  <div>
+    <img src="./images/cp4.png" alt="">
+     <p>Get a high level view of your production using the Multiview. Monitor 8 different scenes and easily cue or transition to any of them with merely a single or double click.</p>
+  </div>
+</div>
+
+
+</div>
+
+<div class="five">
+  <div>
+    <div class="head">
+      <h1>Collaborative Creativity</h1>
+    </div>
+  <p>OBS Studio is equipped with a powerful API, enabling plugins and scripts to provide further customization and <br>functionality specific to your needs.
+
+    <br>Utilize native plugins for high performance integrations or scripts written with Lua or Python that interface with existing <br>sources.
+    
+    
+    <br>Work with developers in the streaming community to get the features you need with endless possibilities.
+    
+    
+    <br>Browse or submit your own in the Resources section</p>
+  </div>
+  
+</div>
+  
+<footer>
+  <div class="link">
+    <div class="project">
+      <div class="logo">
+        <img src="./images/obs original.png">
+      <h1>OBS Project</h1>
+      </div>
+      <div class="icon">
+        <a href=""><img src="./images/twitter.png"></a>
+        <a href=""><img src="./images/icons8-facebook-24.png"></a>
+        <a href=""><img src="./images/discord.png" alt=""></a>
+      </div>
+    </div>
+
+      <div class="container">
+        <h2>OBS Studio</h2>
+        <li><a href="">Download</a></li>
+        <li><a href="">Ideas</a></li>
+        <li><a href="">Privacy Policy</a></li>
+      </div>
+      <div class="container">
+        <h2>Contribute</h2>
+        <li><a href="">GitHub</a></li>
+        <li><a href="">Open Collective</a></li>
+        <li><a href="">Patreon</a></li>
+      </div>
+      <div class="container">
+        <h2>Support</h2>
+        <li><a href="">Help Portal</a></li>
+        <li><a href="">Forums</a></li>
+        <li><a href="">Discord</a></li>
+        <li><a href="">Wiki</a></li>
+      </div>
+      
+      
+  </div>
+  <p>© 2012 - 2024. OBS and OBS Studio are created and maintained by Lain. Development by <a href="">OBS Studio Contributors.</a><br>
+    Website redesigned and created by <a href="Osose"></a>, powered by <a href="">CreatorsHub</a>. Downloads powered by <a href="">GZ-Visuals.</a></p>
+
+    <div class="translate">
+      <a href="">Čeština</a>
+      <a href="">Dansk</a>
+      <a href="">Deutsch</a>
+      <a href="">Español</a>
+      <a href="">Euskara</a>
+      <a href="">Suomi</a>
+      <a href="">Français</a>
+      <a href="">Magyar</a>
+      <a href="">日本語</a>
+      <a href="">한국어</a>
+      <a href="">Português do Brasil</a>
+      <a href="">ру́сский</a>
+      <a href="">Svenska</a>
+      <a href="">Türkçe</a>
+      <a href="">українська</a>
+      <a href="">中文(简体)</a>
+    </div>
+
+</footer>
+  
+</body>
+
+</html>
